@@ -1,0 +1,46 @@
+body {
+    padding-top: 56px; /* Memberikan jarak di atas untuk navbar */
+    font-family: Arial, sans-serif; /* Mengatur font dasar */
+}
+
+.navbar {
+    margin-bottom: 20px; /* Jarak bawah navbar */
+}
+
+.section {
+    padding: 20px 0; /* Jarak vertikal untuk setiap section */
+}
+
+h2 {
+    border-bottom: 2px solid #007bff; /* Garis bawah pada judul */
+    padding-bottom: 10px; /* Jarak bawah judul */
+    color: #007bff; /* Warna judul */
+}
+
+img.img-fluid {
+    max-width: 100%; /* Memastikan gambar responsif */
+    height: auto; /* Menjaga proporsi gambar */
+}
+
+footer {
+    background-color: #f8f9fa; /* Warna latar belakang footer */
+    padding: 10px 0; /* Jarak vertikal footer */
+    text-align: center; /* Memusatkan teks di footer */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Warna tombol utama */
+    border-color: #007bff; /* Warna border tombol utama */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Warna tombol saat hover */
+    border-color: #0056b3; /* Warna border saat hover */
+}
+
+/* Media Query untuk Responsivitas */
+@media (max-width: 768px) {
+    .section {
+        padding: 15px 0; /* Mengurangi padding di perangkat kecil */
+    }
+}
